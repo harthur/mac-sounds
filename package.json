@@ -1,0 +1,11 @@
+{
+	"name": "mac-sounds",
+	"description": "play Mac OS X default sounds",
+	"version": "0.1.0",
+	"author": "Heather Arthur <fayearthur@gmail.com>",
+	"repository": {
+	  "type": "git",
+	  "url": "http://github.com/harthur/mac-sounds.git"
+	},
+	"main": "./sounds"
+}
