@@ -5,7 +5,15 @@ mac-sounds is a library for playing the default Mac OS X sounds from node:
 ```javascript
 var sound = require("mac-sounds");
 
-sound('submarine');  // plays the submarine sound
+sound('submarine');
+```
+
+Takes a callback as a second argument:
+
+```javascript
+sound('pop', function(err) {
+  if (err) throw err;
+})
 ```
 
 ## install
